@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: block;
+  width: 251px;
+}
+
+.header__info {
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  color: var(--text-color-basic);
+}
+
+.header__info--text {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-color-basic);
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header__tel {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-color-basic);
+  text-decoration: none;
+}
