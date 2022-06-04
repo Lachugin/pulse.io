@@ -1,0 +1,25 @@
+.form {
+  max-width: 303px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  &__mt {
+    margin-top: 36px;
+  }
+}
+
+.form__label {
+  width: 100%;
+}
+
+.form__input {
+  width: 100%;
+  padding: 21px 0 20px 21px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form__btn {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
