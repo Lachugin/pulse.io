@@ -1,0 +1,132 @@
+.catalog {
+  background: var(--bg-color-slider);
+  padding-bottom: 79px;
+}
+
+.catalog__title {
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: var(--text-title-basic);
+  text-align: center;
+}
+
+.catalog__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  gap: 10px;
+  padding-top: 46px;
+  padding-bottom: 57px;
+}
+
+.catalog__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 222px;
+  height: 52px;
+  background: rgba(0, 0, 0, 0.0001);
+  border: 2px solid #D0D0D0;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--text-catalog-basic);
+  transform: skewX(-30deg);
+  div {
+    transform: skewX(30deg);
+  }
+}
+
+.catalog__item--active {
+  background-color: var(--btn-color-basic);
+  border: 2px solid var(--btn-color-basic);
+  color: var(--text-color-basic);
+}
+
+.catalog__list-shop {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.catalog__item-shop {
+  max-width: 303px;
+  border: 2px solid #D0D0D0;
+  padding: 20px;
+}
+
+.catalog__img  {
+  width: 140px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.catalog__subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text-title-basic);
+  margin-bottom: 10px;
+}
+
+.catalog__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--text-title-basic);
+  margin-bottom: 10px;
+}
+
+.catalog__link  {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--link-color-basic);
+  text-decoration-line: underline;
+}
+
+.catalog__inner {
+  position: relative;
+  margin-top:  35px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    background: #E8E8E8;
+    width: 263px;
+    height: 2px;
+    top: -25px;
+  }
+}
+
+.catalog__prices {
+  list-style: none;
+  max-width: 127px;
+  text-align: initial;
+}
+
+.catalog__old-price {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  text-decoration-line: line-through;
+  color: var(--price-color-basic);
+}
+
+.catalog__new-price {
+  font-weight: 700;
+  font-size: 20px;
+  color: #050505;
+}
+
+.catalog__btn {
+  min-width: 135px;
+}
