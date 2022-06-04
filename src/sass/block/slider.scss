@@ -1,0 +1,30 @@
+@import "../../../node_modules/slick-carousel/slick/slick.scss";
+// @import "../../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+
+.slider {
+  padding: 80px 0;
+  background-color: var(--bg-color-slider);
+}
+
+.slick-slider {
+  max-width: 750px;
+  max-height: 580px;
+  margin: 0 auto;
+  .slick-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    background: none;
+    border: none;
+  }
+}
+
+.slick-prev {
+  left: -60px;
+
+}
+
+.slick-next {
+  right: -60px;
+}
